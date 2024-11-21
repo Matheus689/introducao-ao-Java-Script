@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex7</title>
+</head>
+<body>
+
+    <script>  
+
+        let valorConta = prompt("Digite o valor da conta:");
+        let porcentagemGorjeta = prompt("Digite a porcentagem de gorjeta:");
+        let valorGorjeta = (Number(valorConta) * Number(porcentagemGorjeta)) / 100;
+        let totalConta = Number(valorConta) + valorGorjeta;
+        alert(`O valor da gorjeta é R$${valorGorjeta.toFixed(2)}. O total a pagar é R$${totalConta.toFixed(2)}.`);
+
+    </script>
+    
+</body>
+</html>
